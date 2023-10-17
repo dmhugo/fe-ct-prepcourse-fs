@@ -63,8 +63,8 @@ function filter(arrayOfStrings) {
    // Luego retorna un nuevo arreglo con estos elementos.
    // Tu código:
    var con_a = arrayOfStrings.filter(function(ele){
-      return ele[0]=== "a"
-   });
+      return ele[0]=== "a";
+   })
    return con_a;
 }
 
